@@ -4,6 +4,8 @@ import sliderActiveSlice from "./sliderActiveSlice";
 import categoriesActiveSlice from "./categoriesActiveSlice";
 import sizeSlice from "./sizeSlice";
 import navigationShopActiveSlice from "./navigationShopActiveSlice";
+import plantCartSlice from "./plantCartSlice";
+import BlogsCartSlice from "./BlogsCartSlice";
 
 export const store = configureStore({
     reducer:{
@@ -11,7 +13,9 @@ export const store = configureStore({
         sliderActiveSlice:sliderActiveSlice,
         categoriesActiveSlice:categoriesActiveSlice,
         sizeSlice:sizeSlice,
-        navigationShopActiveSlice:navigationShopActiveSlice
+        navigationShopActiveSlice:navigationShopActiveSlice,
+        plantCartSlice:plantCartSlice,
+        BlogsCartSlice:BlogsCartSlice
     }
 })
 

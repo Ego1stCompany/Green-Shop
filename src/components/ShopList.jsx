@@ -5,6 +5,7 @@ import PriceRange from "./PriceRange";
 import Size from "./Size";
 import NavigationShop from "./NavigationShop";
 import CartList from "./CartList";
+import ButtonList from "./ButtonList";
 
 const ShopList = () => {
     return (
@@ -18,6 +19,7 @@ const ShopList = () => {
             <div className={'col-span-4 gap-4 flex flex-col'}>
                 <NavigationShop/>
                 <CartList/>
+                <ButtonList/>
             </div>
         </section>
     );
